@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 40rem;
+    /* sets margin top and bottom  */
+    margin-block: 1rem;
+    /* sets the margin left and right  */
+    margin-inline: auto;
+    padding: 2rem;
+    box-shadow:
+        1px 1px 1px rgb(224, 150, 150),
+        -1px -1px 1px rgb(119, 255, 0);
+}
+
+.title,
+.description {
+    text-align: center;
+    margin-block: 1rem;
+}
+
+.note {
+    padding-inline: 2rem;
+}
+
+.note-title {
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: inside;
+}
+
+.list-item {
+    padding: .5rem;
+    background-color: aquamarine;
+}
